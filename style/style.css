@@ -71,6 +71,44 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
+.cabecalho {
+    padding: 2% 0 0 43%;
+}
+
+.cabecalho_menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho_link {
+    font-family: var(--font-primaria);
+    font-size: 1rem;
+    color: var(--cor-primaria);
+    text-decoration: none;
+}
+
+.cabecalho_link:hover {
+    background-color: var(--cor-secundaria);
+    border-radius: 50%;
+    padding: 1%;
+}
+
+.artes {
+    display: flex;
+    width: 100%;
+    padding: 2%;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    align-self: flex-end;
+}
+
+.artes_imagem {
+    width: 350px;
+    height: 350px;
+    justify-content: space-around;
+    padding: 2%;
+}
+
 .rodape {
     text-align: center;
     background-color: var(--cor-terciaria);
